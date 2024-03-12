@@ -60,7 +60,7 @@ defmodule TodoList do
   end
 end
 
-defmodule CsvImporter do
+defmodule TodoList.CsvImporter do
   def import!(path) do
     path
     |> File.stream!()

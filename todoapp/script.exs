@@ -25,4 +25,4 @@
 # IO.inspect(TodoList.entries(todo_list, date))
 
 
-IO.inspect(CsvImporter.import!("./resources/todos.csv"))
+IO.inspect(TodoList.CsvImporter.import!("./resources/todos.csv"))
